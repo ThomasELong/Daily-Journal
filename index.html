@@ -8,19 +8,19 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body class="journalForm">
-    <h1>Daily Journal</h1>
+    <h1 class="myTitle">Daily Journal</h1>
     <form action="">
         <fieldset class="formEntry">
             <label for="journalDate">Date of Entry</label>
-            <input type="date" name="journalDate" id="journalDate">
+            <input class="dateEntry" type="date" name="journalDate" id="journalDate">
         </fieldset>
         <fieldset class="formEntry">
             <label for="conceptsCovered">Concepts Covered:</label>
-            <input type="text" name="conceptsCovered" id="conceptsCovered" size=20>
+            <textarea name="conceptsCovered" id="conceptsCovered" cols="30" rows="2"></textarea>
         </fieldset>
         <fieldset class="formEntry">
             <label for="journalEntry">Journal Entry:</label>
-            <input type="text" name="journalEntry" id="journalEntry" size= 20>
+            <textarea class="entryBox" type="text" name="journalEntry" id="journalEntry"></textarea>
         </fieldset>  
         <fieldset class="formEntry">
             <label for="currentFeeling">Mood for the Day:</label>
