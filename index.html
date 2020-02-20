@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="journalForm">
+    <h1>Daily Journal</h1>
+    <form action="">
+        <fieldset class="formEntry">
+            <label for="journalDate">Date of Entry</label>
+            <input type="date" name="journalDate" id="journalDate">
+        </fieldset>
+        <fieldset class="formEntry">
+            <label for="conceptsCovered">Concepts Covered:</label>
+            <input type="text" name="conceptsCovered" id="conceptsCovered" size=20>
+        </fieldset>
+        <fieldset class="formEntry">
+            <label for="journalEntry">Journal Entry:</label>
+            <input type="text" name="journalEntry" id="journalEntry" size= 20>
+        </fieldset>  
+        <fieldset class="formEntry">
+            <label for="currentFeeling">Mood for the Day:</label>
+            <select name="currentFeeling" id="currentFeeling">
+                <option value="none">     </option>
+                <option value="excited">Excited</option>
+                <option value="enthusiastic">Enthusiastic</option>
+                <option value="happy">Happy</option>
+                <option value="determined">Determined</option>
+                <option value="anxious">Anxious</option>
+                <option value="disappointed">Disappointed</option>
+                <option value="sad">Sad</option>
+                <option value="angry">Angry</option>
+            </select>
+        </fieldset>
+        <input class="search" type="submit" value="Record Journal Entry" style="width: 30em; height: 15em;">  
+    </form>
+    
+</body>
+</html>

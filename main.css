@@ -1,0 +1,13 @@
+.formEntry {
+    display: flex;
+    flex-direction: column;
+    padding-right: 5%;
+    border: 1px solid black;
+    margin: 2em;
+    font-size: 18pt;
+}
+
+.search {
+    width: 60em;
+    /* height: 60em; */
+}
