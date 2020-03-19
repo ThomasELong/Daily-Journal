@@ -7,9 +7,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
 </head>
-<body class="journalForm">
+<body class="container">
     <h1 class="myTitle">Daily Journal</h1>
-    <form action="">
+    <form action="" class="journalEntries">
         <fieldset class="formEntry dateEntry">
             <label for="journalDate">Date of Entry</label>
             <input type="date" name="journalDate" id="journalDate">
@@ -37,8 +37,8 @@
                 <option value="frustrated">frustrated</option>
             </select>
         </fieldset>
-
-        <input class="search" type="submit" value="Record Journal Entry" style="width: 30em; height: 15em;">  
+        <div class="journalEntry__button"></div>
+        <div class="submittedNotesContainer"></div>
     </form>
     <section>
         <div id="entryLog"></div>
