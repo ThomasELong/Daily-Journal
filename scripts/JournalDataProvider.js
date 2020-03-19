@@ -2,11 +2,6 @@ let entries = []
 
 const eventHub = document.querySelector(".journalEntries")
 
-// const dispatchStateChangeEvent = () => {
-//     const entryStateChangedEvent = new CustomEvent("entryStateChanged")
-
-//     eventHub.dispatchEvent(entryStateChangedEvent)
-// }
 
 export const useJournalEntries = () => entries.slice()
 

@@ -1,6 +1,6 @@
 import { useJournalEntries, getJournalEntries, saveJournalEntries } from './JournalDataProvider.js';
 import './JournalEntryList.js'
-import "./Entry.js"
+import "./JournalForm.js"
 import { DisplayJournalEntryButton } from './JournalEntryButton.js';
 
 

@@ -7,7 +7,6 @@
 
 
 import { useJournalEntries, getJournalEntries } from "./JournalDataProvider.js"
-import { createEntry } from "./Entry.js"
 
 // DOM reference to where all entries will be rendered
 const contentTarget = document.querySelector(".submittedNotesContainer")
