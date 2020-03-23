@@ -1,3 +1,13 @@
+.myTitle {
+    display: flex;
+    justify-content: center;
+}
+
+.dateEntry {
+    display: flex;
+    justify-content: center;
+}
+
 .formEntry {
     display: flex;
     flex-direction: column;
@@ -7,7 +17,8 @@
     font-size: 18pt;
 }
 
-.search {
-    width: 60em;
-    /* height: 60em; */
+.entryBox {
+    width: 450px;
+    height: 125px;
+    justify-content: flex-start;
 }

@@ -1,0 +1,55 @@
+Script started on Mon Mar  2 14:40:11 2020
+[Oh My Zsh] Would you like to update? [Y/n]: n
+[1m[7m%[27m[1m[0m                                                                                                                          ]2;thomas@Thomass-MacBook-Pro: ~/workspace/DJ]1;~/workspace/DJ[0m[27m[24m[J[01;32m➜  [36mDJ[00m [01;34mgit:([31mDJ-Further-Build[34m) [33m✗[00m [K[?1h=[?2004hssts scripts[?1l>[?2004l
+]2;scripts]1;scripts[1m[7m%[27m[1m[0m                                                                                                                          ]2;thomas@Thomass-MacBook-Pro: ~/workspace/DJ/scripts]1;..ce/DJ/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mDJ-Further-Build[34m) [33m✗[00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lsmain.js [1m[36mstyles[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                                          ]2;thomas@Thomass-MacBook-Pro: ~/workspace/DJ/scripts]1;..ce/DJ/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mDJ-Further-Build[34m) [33m✗[00m [K[?1h=[?2004httouch Joun rnalDataProvider.js[?1l>[?2004l
+]2;touch JournalDataProvider.js]1;touch[1m[7m%[27m[1m[0m                                                                                                                          ]2;thomas@Thomass-MacBook-Pro: ~/workspace/DJ/scripts]1;..ce/DJ/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mDJ-Further-Build[34m) [33m✗[00m [K[?1h=[?2004hsserve[?1l>[?2004l
+]2;serve]1;serve[32m[39m
+[32m   ┌─────────────────────────────────────────────────────┐[39m
+   [32m│[39m                                                     [32m│[39m
+   [32m│[39m   [32mServing![39m                                          [32m│[39m
+   [32m│[39m                                                     [32m│[39m
+   [32m│[39m   [1m- Local:[22m            http://localhost:64285        [32m│[39m
+   [32m│[39m   [1m- On Your Network:[22m  http://192.168.21.155:64285[31m[39m   [32m│[39m
+   [32m│[39m   [31m[39m                                                  [32m│[39m
+   [32m│[39m   [31mThis port was picked because [4m5000[24m is in use.[39m      [32m│[39m
+   [32m│[39m                                                     [32m│[39m
+   [32m│[39m   [90mCopied local address to clipboard![39m                [32m│[39m
+   [32m│[39m                                                     [32m│[39m
+[32m   └─────────────────────────────────────────────────────┘[39m
+[32m[39m
+^C
+[35mINFO:[39m Gracefully shutting down. Please wait...
+^C
+[33mWARNING:[39m Force-closing all open sockets...
+[1m[7m%[27m[1m[0m                                                                                                                          ]2;thomas@Thomass-MacBook-Pro: ~/workspace/DJ/scripts]1;..ce/DJ/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mDJ-Further-Build[34m) [33m✗[00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lsJournalDataProvider.js main.js                [1m[36mstyles[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                                          ]2;thomas@Thomass-MacBook-Pro: ~/workspace/DJ/scripts]1;..ce/DJ/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mDJ-Further-Build[34m) [33m✗[00m [K[?1h=[?2004hccd[?1l>[?2004l
+]2;cd]1;cd[1m[7m%[27m[1m[0m                                                                                                                          ]2;thomas@Thomass-MacBook-Pro: ~]1;~[0m[27m[24m[J[01;32m➜  [36m~[00m [K[?1h=[?2004hwworkspace[?1l>[?2004l
+]2;workspace]1;workspace[1m[7m%[27m[1m[0m                                                                                                                          ]2;thomas@Thomass-MacBook-Pro: ~/workspace]1;~/workspace[0m[27m[24m[J[01;32m➜  [36mworkspace[00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls[1m[36mChalkboard[39;49m[0m                                   [1m[36mgithub-workflow-aquarium-cohort-39-swordfish[39;49m[0m
+[1m[36mDJ[39;49m[0m                                           [1m[36mgroup-project-1[39;49m[0m
+[1m[36mLightning Exercise[39;49m[0m                           index.html
+[1m[36maquarium[39;49m[0m                                     main.css
+[1m[36mclassPractice[39;49m[0m                                main.js
+[1m[36mfoundations[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                                          ]2;thomas@Thomass-MacBook-Pro: ~/workspace]1;~/workspace[0m[27m[24m[J[01;32m➜  [36mworkspace[00m [K[?1h=[?2004hDDJ[?1l>[?2004l
+]2;DJ]1;DJ[1m[7m%[27m[1m[0m                                                                                                                          ]2;thomas@Thomass-MacBook-Pro: ~/workspace/DJ]1;~/workspace/DJ[0m[27m[24m[J[01;32m➜  [36mDJ[00m [01;34mgit:([31mDJ-Further-Build[34m) [33m✗[00m [K[?1h=[?2004hsserve[?1l>[?2004l
+]2;serve]1;serve[32m[39m
+[32m   ┌─────────────────────────────────────────────────────┐[39m
+   [32m│[39m                                                     [32m│[39m
+   [32m│[39m   [32mServing![39m                                          [32m│[39m
+   [32m│[39m                                                     [32m│[39m
+   [32m│[39m   [1m- Local:[22m            http://localhost:64501        [32m│[39m
+   [32m│[39m   [1m- On Your Network:[22m  http://192.168.21.155:64501[31m[39m   [32m│[39m
+   [32m│[39m   [31m[39m                                                  [32m│[39m
+   [32m│[39m   [31mThis port was picked because [4m5000[24m is in use.[39m      [32m│[39m
+   [32m│[39m                                                     [32m│[39m
+   [32m│[39m   [90mCopied local address to clipboard![39m                [32m│[39m
+   [32m│[39m                                                     [32m│[39m
+[32m   └─────────────────────────────────────────────────────┘[39m
+[32m[39m
+^C
+[35mINFO:[39m Gracefully shutting down. Please wait...
+[1m[7m%[27m[1m[0m                                                                                                                          ]2;thomas@Thomass-MacBook-Pro: ~/workspace/DJ]1;~/workspace/DJ[0m[27m[24m[J[01;32m➜  [36mDJ[00m [01;34mgit:([31mDJ-Further-Build[34m) [33m✗[00m [K[?1h=[?2004h

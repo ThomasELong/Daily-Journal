@@ -1,14 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="main.css">
-</head>
-<body class="container">
-    <!-- <h1 class="myTitle">Daily Journal</h1>
+import { saveJournalEntries } from "./JournalDataProvider.js";
+
+const eventHub = document.querySelector(".container")
+
+const dispatchStateChangeEvent = () => {
+    const entryStateChangedEvent = new CustomEvent("entryStateChanged")
+
+    eventHub.dispatchEvent(entryStateChangedEvent)
+}
+
+saveJournalEntries().then(dispatchStateChangeEvent())
+
+
+export const createEntry = ( entryObject ) => {
+    return `
+    <h1 class="myTitle">Daily Journal</h1>
     <form action="" class="journalEntries">
         <fieldset class="formEntry dateEntry">
             <label for="journalDate">Date of Entry</label>
@@ -39,13 +44,14 @@
         </fieldset>
         <div class="journalEntry__button"></div>
         <div class="submittedNotesContainer"></div>
-    </form> -->
-    <section>
-        <div id="entryLog"></div>
-    </section>
+    </form>
 
+    // <div class="entryItem">
+    //     <p>Date:${new Date(entryObject.timestamp).toLocaleDateString()}</p>
+    //     <p>Mood: ${entryObject.mood}</p>
+    //     <p>Concept: ${entryObject.concept}</p>
+    //     <p>Entry: ${entryObject.entry}</p>
+    // </div>
+    `
 
-
-    <script type="module" src="./scripts/main.js"></script>
-</body>
-</html>
+    }
